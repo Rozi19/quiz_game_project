@@ -14,6 +14,7 @@ fetch('quiz.json')
             var question_continar = document.createElement('div');
             question_continar.className = 'question_continar';
             var question_section = document.createElement('div');
+            question_section.className = 'question_section';
             var question_q = document.createElement('p');
 
             question_q.textContent = questions;
